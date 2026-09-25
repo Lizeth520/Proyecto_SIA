@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: #ffffff;
+    color: #333333;
+    line-height: 1.6;
+}
+
+header {
+    width: 100%;
+    background-color:#9bb32f;
+    align-items: center;
+    display:flex;
+    justify-content: space-between;
+}
+
+.menu {
+    width: 100%;
+    max-width: 1200px;
+    height: 75px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #555555;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+h1{
+
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+h2,h3{
+  font-family: "Nunito Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+p {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-style:normal;
+
+}
+
+.lema h2{
+    text-align:right;
+}
+
+.descripcion {
+    width: 90%;
+    max-width: 1200px;
+    margin: 40px auto 20px;
+    padding: 35px;
+    background-color: white;
+    color: rgb(12, 12, 12);
+    text-align: center;
+}
+
+.descripcion p {
+    margin: 7px 0;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.linea-verde {
+    border: none;
+    height: 3px;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto 35px;
+    background:
+        #9bbb24;
+
+    border-radius: 10px;
+}
+
+main {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+}
+
+
+.productos {
+  display: grid;
+  grid-template-columns: auto auto ;
+  padding: 15px;
+  gap: 20px;
+}
+.productos div {
+
+  color: #000;
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+}
+
+
+.nosotros .box {
+    width: 17rem;
+    background-color:#9bb32f;
+    text-align: center;
+    margin: 1rem;
+    color: #000000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.nosotros {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin: 40px auto 20px;
+    padding: 35px;
+    border-radius: 25px 25px 10px 10px;
+    text-align: center;
+}
+
+
+
+footer {
+    width:cover;
+    margin: 40px;
+    padding: 35px;
+    background: #a7bd23;
+    color: black;
+    border-radius: 25px 25px 10px 10px;
+    text-align: center;
+}
+
+footer p {
+    margin: 7px 0;
+    font-size: 14px;
+    color: #000;
+}
+
+
