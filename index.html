@@ -3,11 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Sistema de inventariado automatizado - Descripción del negocio.">
-
-    <link rel="stylesheet" href="style1.css">
-    
-    <title>Sistema de inventariado automatizado | Inicio</title>
+  
+    <meta name="description" content="Sistema de inventariado automatizado.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/styleindex.css">
+    <title>sistema de inventariado automatizado | Inicio</title>
 </head>
 <body>
 
@@ -15,85 +17,92 @@
     <a href="index.html">
     <img src="imagenes/logosia.png" alt="Logo de la empresa" width="100"></a>
 
-<nav aria-label="Menú principal">
+<nav class="menu">
     <ul>
         <li><a href="#inicio">Inicio</a></li>
         <li><a href="#servicios">Productos</a></li>
         <li><a href="#nosotros">Nosotros</a></li>
         <li><a href="#contacto">Contactanos</a></li>
-        <li><a href="login.html">Iniciar Sesión</a></li>
+        <buttom type="subtmit"><a href="login.html"> Iniciar Sesion</a></buttom>
     </ul>
 </nav>
 </header>
-<!-- ============ CONTENIDO PRINCIPAL ============ -->
 <main>
-<section id="inicio" aria-label="Presentación principal">
+    <section id="inicio" aria-label="Presentación principal">
+    
+    <div class="lema">
+    <h2> EL SABOR DEL CAMPO Y LA <br>
+    FRESCURA QUE TU FAMILIA NECESITA </h2>
+    </div>
 
-    <p> EL SABOR DEL CAMPO Y LA <br>
-        FRESCURA QUE TU FAMILIA NECESITA </p>
-    <h2> En nuestra mayorista </h2>
+<div class="descripcion">
+    <h2 class="text- text-decoration-underline">En nuestra mayorista</h2>
+
     <p>Las frutas y verduras  que brindamos en nuestra central mayorista se caracterizan por su frescura, calidad y origen natural.<br>
     Trabajamos por ofrecer producos seleccionados cuidadosamente sin quimicos durante su cosecha.<br>
-    Queremos que cada alimento que llegue a tu mesa conserve su sabor, frescura y calidad.</p>
+    Queremos que cada alimento que llegue a tu mesa conserve su sabor, frescura y calidad.</p> 
+</div>
     <center>
-   <h2> Frutas</h2>
+   <h2 class="text-warning text-decoration-underline"> Frutas</h2>
     </center>
 </section>
 <section id="servicios" aria-labelledby="titulo-servicios">
-    <h2 id="titulo-servicios">Nuestros Productos</h2>
-
-    <article>
+    <h4 id="titulo-servicios" class="col-md bg-light d-flex">Nuestros Productos</h4>
+    <div class="productos">
+        <div class="caja1">
         <h3>Piñas</h3>
         <img src="imagenes/piña.png" alt="piñas" width="300">
-        
-    </article>
-    <article>
-         <h3>Limon</h3>  
+    </div>
+    <div>
+         <h3 class="caja2">Limon</h3>  
         <img src="imagenes/limon.png" alt="limones" width="300">
-         
-    </article>
-    <article>
-        <h3>Mango</h3>
+    </div>
+    <div>
+        <h3 class="caja3">Mango</h3>
         <img src="imagenes/mango.png" alt="Mango" width="300">
         
-    </article>
-    <article>
+    </div>
+    <div>
         <h3>Naranja</h3>
         <img src="imagenes/naranja.png" alt="Naranja" width="300">
-             
+    
     </article>
+    </div>
+
 </section>
-<section id="nosotros" aria-labelledby="titulo-nosotros">
-    <h2 id="titulo-nosotros">Nosotros</h2>
-    <h3> MISION</h3>
-    <p> Brindar productos agricolas frescos, saludables y de excelente calidad, conectando a nuestros <br>
-         clientes con el campo a traves de un servicio confiable, precios justos y un compromiso constante con <br>
-         la satisfaccion y el bienestar de las familias.</p>
-    <h3> VISIÓN</h3>
-    <p> Ser una empresa reconocida por ofrecer los mejores productos agricolas, destacandonos por <br>
-        nuestra calidad, innovacion y excelente atencion al cliente, promoviendo el desarrollo del <br>
-        campo y una alimentacion saludable en nuestra comunidad.</p>
+    <center>
+    <h2 id="titulo-nosotros" class="text-success text-decoration-underline">Nosotros</h2>
+    </center>
+    <section class="nosotros">
+        <div class="box">
+            <h3> MISION</h3>
+            <p> Brindar productos agricolas frescos, saludables y de excelente calidad, conectando a nuestros <br>
+                clientes con el campo a traves de un servicio confiable, precios justos y un compromiso constante con <br>
+                la satisfaccion y el bienestar de las familias.</p>
+        </div>
+        <div class="box">
+            <h3> VISIÓN</h3>
+            
+            <p> Ser una empresa reconocida por ofrecer los mejores productos agricolas, destacandonos por <br>
+                nuestra calidad, innovacion y excelente atencion al cliente, promoviendo el desarrollo del <br>
+                campo y una alimentacion saludable en nuestra comunidad.</p>
+        </div>
 </section>
-<section id="contacto" aria-labelledby="titulo-contacto">
-<h2 id="titulo-contacto">Contáctanos</h2>
-<!-- address: datos de contacto del autor/organización del documento -->
-<address>
-Correo: <a href="fyvmargaritasantos@gmail.com">fyvmargaritasantos@gmail.com</a>
-<br>
-Teléfono: <a href="tel:3213782510">3213782510</a><br>
-Ubicación:Calle 11 n 21-55 Ciudad, Colombia
-
-
-
-</address>
+<section id="contacto" class="py-5 text-dark text-align-center" style="background-color:#e3e8e4;">
+        <h2 id="titulo-contacto">Contáctanos</h2>
+        <address>
+        Correo: <a href="fyvmargaritasantos@gmail.com">fyvmargaritasantos@gmail.com</a>
+        <br>
+        Teléfono: <a href="tel:3213782510">3213782510</a><br>
+        Ubicación:Calle 11 n 21-55 Ciudad, Colombia
+        </address>
 </section>
 </main>
 
 <footer>
-        <P> contacto: fyvmargaritasantos@gmail.com </P>
-        <P> telefono: 3213782510 </P>
+        <P: last-child> contacto: fyvmargaritasantos@gmail.com </P>
         <p> direccion: calle 123, Duitama, Boyacá</p>
-        <p> horario: Lunes a Domingo, 7:00 AM - 5:00 PM </p>
+       
         <p>&copy; 2026 SIA(sistema de inventariado automatizado). Todos los derechos reservados.</p>
 
         <nav aria-label="Redes sociales">
@@ -104,7 +113,9 @@ Ubicación:Calle 11 n 21-55 Ciudad, Colombia
     </ul>
 </nav>
 </footer>
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
 </body>
 </html>
