@@ -85,9 +85,15 @@ form input:focus {
 
 /* TÉRMINOS Y CONDICIONES */
 
+.terms-container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
 form p {
     font-size: 13px;
-    color: #666;
+    color: green;
     margin: 5px 0 20px;
 }
 
